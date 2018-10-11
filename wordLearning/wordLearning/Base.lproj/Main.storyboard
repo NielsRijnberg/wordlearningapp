@@ -49,7 +49,6 @@
         <!--Nieuwe woordenlijst-->
         <scene sceneID="4k3-la-Ioo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3SB-GW-ueu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Nieuwe woordenlijst" id="81t-7p-20S" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8xd-tH-Ams">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -69,6 +68,7 @@
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3SB-GW-ueu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2078" y="221"/>
         </scene>

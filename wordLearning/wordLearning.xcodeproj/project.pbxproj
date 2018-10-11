@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051EDABA216F381B006400F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 051EDAB9216F381B006400F6 /* GoogleService-Info.plist */; };
 		052AC0D721663BF200AFA10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052AC0D621663BF200AFA10B /* AppDelegate.swift */; };
 		052AC0D921663BF200AFA10B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052AC0D821663BF200AFA10B /* ViewController.swift */; };
 		052AC0DC21663BF200AFA10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052AC0DA21663BF200AFA10B /* Main.storyboard */; };
 		052AC0DE21663BF200AFA10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052AC0DD21663BF200AFA10B /* Assets.xcassets */; };
 		052AC0E121663BF200AFA10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052AC0DF21663BF200AFA10B /* LaunchScreen.storyboard */; };
+		05C59A04216F4556001BB97C /* wordToLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C59A03216F4556001BB97C /* wordToLearn.swift */; };
+		B3ECB37C4A4D05A72467235D /* Pods_wordLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B8D2EB8077F91870F00C3F /* Pods_wordLearning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051EDAB9216F381B006400F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		052AC0D321663BF200AFA10B /* wordLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		052AC0D621663BF200AFA10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		052AC0D821663BF200AFA10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		052AC0DD21663BF200AFA10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052AC0E021663BF200AFA10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052AC0E221663BF200AFA10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C59A03216F4556001BB97C /* wordToLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordToLearn.swift; sourceTree = "<group>"; };
+		409CFEC3179258A89736A0BD /* Pods-wordLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF117AE2247E55724784EDB /* Pods-wordLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning.release.xcconfig"; sourceTree = "<group>"; };
+		A7B8D2EB8077F91870F00C3F /* Pods_wordLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wordLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3ECB37C4A4D05A72467235D /* Pods_wordLearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				052AC0D521663BF200AFA10B /* wordLearning */,
 				052AC0D421663BF200AFA10B /* Products */,
+				D7BA19952EDBB719D79D7761 /* Pods */,
+				F86646041DB1A6F362AEB830 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,33 @@
 		052AC0D521663BF200AFA10B /* wordLearning */ = {
 			isa = PBXGroup;
 			children = (
+				051EDAB9216F381B006400F6 /* GoogleService-Info.plist */,
 				052AC0D621663BF200AFA10B /* AppDelegate.swift */,
 				052AC0D821663BF200AFA10B /* ViewController.swift */,
 				052AC0DA21663BF200AFA10B /* Main.storyboard */,
 				052AC0DD21663BF200AFA10B /* Assets.xcassets */,
 				052AC0DF21663BF200AFA10B /* LaunchScreen.storyboard */,
 				052AC0E221663BF200AFA10B /* Info.plist */,
+				05C59A03216F4556001BB97C /* wordToLearn.swift */,
 			);
 			path = wordLearning;
+			sourceTree = "<group>";
+		};
+		D7BA19952EDBB719D79D7761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409CFEC3179258A89736A0BD /* Pods-wordLearning.debug.xcconfig */,
+				9BF117AE2247E55724784EDB /* Pods-wordLearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F86646041DB1A6F362AEB830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B8D2EB8077F91870F00C3F /* Pods_wordLearning.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 052AC0E521663BF200AFA10B /* Build configuration list for PBXNativeTarget "wordLearning" */;
 			buildPhases = (
+				30BB6CC6A6FA3849A0219064 /* [CP] Check Pods Manifest.lock */,
 				052AC0CF21663BF200AFA10B /* Sources */,
 				052AC0D021663BF200AFA10B /* Frameworks */,
 				052AC0D121663BF200AFA10B /* Resources */,
+				422DDC0102949F41BAD6F869 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				052AC0E121663BF200AFA10B /* LaunchScreen.storyboard in Resources */,
+				051EDABA216F381B006400F6 /* GoogleService-Info.plist in Resources */,
 				052AC0DE21663BF200AFA10B /* Assets.xcassets in Resources */,
 				052AC0DC21663BF200AFA10B /* Main.storyboard in Resources */,
 			);
@@ -130,12 +163,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30BB6CC6A6FA3849A0219064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wordLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		422DDC0102949F41BAD6F869 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		052AC0CF21663BF200AFA10B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				052AC0D921663BF200AFA10B /* ViewController.swift in Sources */,
+				05C59A04216F4556001BB97C /* wordToLearn.swift in Sources */,
 				052AC0D721663BF200AFA10B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +369,7 @@
 		};
 		052AC0E621663BF200AFA10B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409CFEC3179258A89736A0BD /* Pods-wordLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +387,7 @@
 		};
 		052AC0E721663BF200AFA10B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF117AE2247E55724784EDB /* Pods-wordLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

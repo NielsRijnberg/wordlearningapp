@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Firestore
 
-class ViewController: UIViewController {
+class TableViewController: UITableViewController {
 
+    var db:Firestore!
+    var wordsToLearnArray = [wordToLearn]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        db = Firestore.firestore()
+        
     }
 
     override func didReceiveMemoryWarning() {
