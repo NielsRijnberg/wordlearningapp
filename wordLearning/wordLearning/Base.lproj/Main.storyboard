@@ -25,7 +25,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="auH-DY-cUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="946"/>
+            <point key="canvasLocation" x="372" y="1132"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Zzz-wP-Bab">
@@ -48,13 +48,13 @@
         <!--Woordlijsten-->
         <scene sceneID="w3p-tD-Cyy">
             <objects>
-                <tableViewController id="sPa-Ri-ZG8" sceneMemberID="viewController">
+                <tableViewController id="sPa-Ri-ZG8" customClass="TableViewController" customModule="wordLearning" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ctw-WT-UuN">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Krn-ai-Iad">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="Krn-ai-Iad">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Krn-ai-Iad" id="G2R-iV-5rY">
@@ -80,7 +80,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qR4-Aw-CIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1174" y="221"/>
+            <point key="canvasLocation" x="1246" y="-53"/>
         </scene>
         <!--Nieuwe woordenlijst-->
         <scene sceneID="4k3-la-Ioo">
@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3SB-GW-ueu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2077.34375" y="220.3125"/>
+            <point key="canvasLocation" x="2173" y="-53"/>
         </scene>
         <!--Lijsten-->
         <scene sceneID="2aC-Wa-ldv">
@@ -152,7 +152,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="biC-3o-8dI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="221"/>
+            <point key="canvasLocation" x="372" y="-53"/>
         </scene>
     </scenes>
 </document>
