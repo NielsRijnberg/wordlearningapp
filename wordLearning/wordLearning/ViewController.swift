@@ -18,7 +18,7 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         db = Firestore.firestore()
         loadData()
-        
+        checkForUpdates()
     }
     
     func loadData() {
@@ -34,10 +34,27 @@ class TableViewController: UITableViewController {
             }
         }
     }
+    
+    func checkForUpdates() {
+        db.collection("words").addSnapshotListener {
+            querySnapshot, error in
+            
+            guard let snapshot = querySnapshot else {return}
+            snapshot.documentChanges.forEach {
+                diff in
+                
+                if diff.type == .added{
+                    self.wordsToLearnArray.append(wordToLearn(dictionary: diff.document.data())!)
+                    DispatchQueue.main.async {
+                        self.tableView.reloadData()
+                    }
+                }
+            }
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
