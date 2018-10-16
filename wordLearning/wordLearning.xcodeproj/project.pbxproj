@@ -13,6 +13,9 @@
 		052AC0DC21663BF200AFA10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052AC0DA21663BF200AFA10B /* Main.storyboard */; };
 		052AC0DE21663BF200AFA10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052AC0DD21663BF200AFA10B /* Assets.xcassets */; };
 		052AC0E121663BF200AFA10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052AC0DF21663BF200AFA10B /* LaunchScreen.storyboard */; };
+		05BAC0192170B3370067F247 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAC0182170B3370067F247 /* WordList.swift */; };
+		05BAC01B2170B3850067F247 /* WordPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAC01A2170B3850067F247 /* WordPair.swift */; };
+		05BAC01D2170B4FA0067F247 /* WordListLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAC01C2170B4FA0067F247 /* WordListLibrary.swift */; };
 		05C59A04216F4556001BB97C /* wordToLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C59A03216F4556001BB97C /* wordToLearn.swift */; };
 		B3ECB37C4A4D05A72467235D /* Pods_wordLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B8D2EB8077F91870F00C3F /* Pods_wordLearning.framework */; };
 		83A91686217073E800494D78 /* NieuweWoordenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A91685217073E800494D78 /* NieuweWoordenViewController.swift */; };
@@ -27,6 +30,9 @@
 		052AC0DD21663BF200AFA10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052AC0E021663BF200AFA10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052AC0E221663BF200AFA10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BAC0182170B3370067F247 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
+		05BAC01A2170B3850067F247 /* WordPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPair.swift; sourceTree = "<group>"; };
+		05BAC01C2170B4FA0067F247 /* WordListLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListLibrary.swift; sourceTree = "<group>"; };
 		05C59A03216F4556001BB97C /* wordToLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordToLearn.swift; sourceTree = "<group>"; };
 		409CFEC3179258A89736A0BD /* Pods-wordLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		9BF117AE2247E55724784EDB /* Pods-wordLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +82,9 @@
 				052AC0DF21663BF200AFA10B /* LaunchScreen.storyboard */,
 				052AC0E221663BF200AFA10B /* Info.plist */,
 				05C59A03216F4556001BB97C /* wordToLearn.swift */,
+				05BAC0182170B3370067F247 /* WordList.swift */,
+				05BAC01A2170B3850067F247 /* WordPair.swift */,
+				05BAC01C2170B4FA0067F247 /* WordListLibrary.swift */,
 			);
 			path = wordLearning;
 			sourceTree = "<group>";
@@ -230,6 +239,9 @@
 			files = (
 				83A91686217073E800494D78 /* NieuweWoordenViewController.swift in Sources */,
 				052AC0D921663BF200AFA10B /* ViewController.swift in Sources */,
+				05BAC01D2170B4FA0067F247 /* WordListLibrary.swift in Sources */,
+				05BAC01B2170B3850067F247 /* WordPair.swift in Sources */,
+				05BAC0192170B3370067F247 /* WordList.swift in Sources */,
 				05C59A04216F4556001BB97C /* wordToLearn.swift in Sources */,
 				052AC0D721663BF200AFA10B /* AppDelegate.swift in Sources */,
 			);
