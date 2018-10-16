@@ -15,6 +15,7 @@
 		052AC0E121663BF200AFA10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052AC0DF21663BF200AFA10B /* LaunchScreen.storyboard */; };
 		05C59A04216F4556001BB97C /* wordToLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C59A03216F4556001BB97C /* wordToLearn.swift */; };
 		B3ECB37C4A4D05A72467235D /* Pods_wordLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B8D2EB8077F91870F00C3F /* Pods_wordLearning.framework */; };
+		83A91686217073E800494D78 /* NieuweWoordenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A91685217073E800494D78 /* NieuweWoordenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		409CFEC3179258A89736A0BD /* Pods-wordLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		9BF117AE2247E55724784EDB /* Pods-wordLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wordLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-wordLearning/Pods-wordLearning.release.xcconfig"; sourceTree = "<group>"; };
 		A7B8D2EB8077F91870F00C3F /* Pods_wordLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wordLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A91685217073E800494D78 /* NieuweWoordenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NieuweWoordenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				051EDAB9216F381B006400F6 /* GoogleService-Info.plist */,
+				83A91685217073E800494D78 /* NieuweWoordenViewController.swift */,
 				052AC0D621663BF200AFA10B /* AppDelegate.swift */,
 				052AC0D821663BF200AFA10B /* ViewController.swift */,
 				052AC0DA21663BF200AFA10B /* Main.storyboard */,
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A91686217073E800494D78 /* NieuweWoordenViewController.swift in Sources */,
 				052AC0D921663BF200AFA10B /* ViewController.swift in Sources */,
 				05C59A04216F4556001BB97C /* wordToLearn.swift in Sources */,
 				052AC0D721663BF200AFA10B /* AppDelegate.swift in Sources */,
